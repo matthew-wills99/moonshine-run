@@ -9,7 +9,7 @@ public class Item : ScriptableObject
     public bool IsPlaceable;
     public bool IsStackable;
     [SerializeField] public Vector2Int Size;
-    public GameObject ItemPrefab; // maybe (surely) this is not the best way to do this?
+    public GameObject ItemPrefab;
 }
 
 public class ItemStack

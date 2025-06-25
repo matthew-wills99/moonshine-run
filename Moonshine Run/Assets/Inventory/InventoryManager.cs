@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -12,44 +11,70 @@ public class InventoryManager : MonoBehaviour
     {
         inventory = new ItemStack[Inventory.SLOT_COUNT];
         
-        // default items for testing purposes
+        LoadStartingItems();
+    }
+
+    private void LoadStartingItems()
+    {
         for(int i = 0; i < startingItems.Count() && i < Inventory.SLOT_COUNT; i++)
         {
-            inventory[i] = new ItemStack(startingItems[i], startingItems[i].IsStackable ? 99 : 0);
+            inventory[i] = new ItemStack(startingItems[i], startingItems[i].IsStackable ? 99 : 1);
         }
-
-        Debug.Log("Test");
     }
 
     public static bool GetItemInSlot(int slot, out ItemStack stack)
     {
-        Debug.Log($"Trying with slot: {slot}, count is: {inventory.Length}");
-
-        if(inventory[slot])
-        {
-            Debug.Log("Here");
-            stack = inventory[slot];
-            return true;
-        }
-        stack = null;
+        stack = inventory[slot] ? inventory[slot] : null;
+        if(stack) return true;
         return false;
     }
 
-    public static void ConsumeItemInSlot(int slot, int count)
+    public static bool ConsumeItemInSlot(int slot, int count)
     {
+        if(!HasEnoughOfItem(slot, count)) return false;
+        
         ItemStack stack = inventory[slot];
-        if(stack.GetCount() > count || !stack.GetItem().IsStackable)
+
+        // take from selected stack first
+        if(stack.GetCount() <= count) return RemoveFromStack(slot, count);
+
+        stack.Remove(count, out int remainder);
+        for(int i = 0; i < Inventory.SLOT_COUNT; i++)
         {
-            stack.Remove(count, out int remainder);
-            if(stack.GetCount() <= 0)
-            {
-                inventory[slot] = null;
-            }
+            if(inventory[i] && inventory[i].GetItem() == stack.GetItem() && remainder > 0) inventory[i].Remove(remainder, out remainder);
+            if(remainder <= 0) return true;
         }
+        Debug.LogError($"Something went wrong. Expected remainder 0, got {remainder}");
+        return false;
     }
 
-    void Update()
+    private static bool RemoveFromStack(int slot, int count)
     {
+        if(count > inventory[slot].GetCount()) 
+        {
+            Debug.LogError($"Inventory at slot {slot} has too little count! have: {inventory[slot].GetCount()} wanted: {count}");
+            return false;
+        }
 
+        inventory[slot].Remove(count, out int _);
+        if(inventory[slot].GetCount() <= 0) inventory[slot] = null;
+        return true;
+    }
+
+    public static bool HasEnoughOfItem(int slot, int qty)
+    {
+        return GetItemQty(slot) >= qty;
+    }
+
+    public static int GetItemQty(int slot)
+    {
+        int qty = 0;
+        ItemStack stack = inventory[slot];
+        qty += stack.GetCount();
+        for(int i = 0; i < Inventory.SLOT_COUNT; i++)
+        {
+            if(inventory[i] && inventory[i].GetItem() == stack.GetItem()) qty += stack.GetCount();
+        }
+        return qty;
     }
 }

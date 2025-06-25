@@ -1,13 +1,11 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using Unity.Mathematics;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class BuildZone : MonoBehaviour
 {
+    private static Vector2 OFFSET = new Vector2(0.5f, 0.5f);
+
     public Transform corner1;
     public Transform corner2;
 
@@ -35,6 +33,15 @@ public class BuildZone : MonoBehaviour
     private int sizeX = 0;
     private int sizeY = 0;
 
+    private int minX;
+    private int minY;
+    private int maxX;
+    private int maxY;
+
+    private Vector2 anchorOffset;
+    private Vector2 anchorCellWorld;
+
+    private Item currentItem;
     void Awake()
     {
         corner1Pos = Vector2Int.RoundToInt(corner1.transform.position);
@@ -43,96 +50,86 @@ public class BuildZone : MonoBehaviour
         min = Vector2Int.Min(corner1Pos, corner2Pos);
 
         buildZoneObjects = new Dictionary<Vector2Int, bool>();
-        // initialize with
+        // initialize empty object grid
         for(int x = min.x; x < max.x; x++)
         {
             for(int y = min.y; y < max.y; y++)
             {
                 buildZoneObjects.Add(new Vector2Int(x, y), false);
-                Debug.Log($"Added: ({x}, {y})");
             }
         }
 
         GenerateGridSquares();
     }
 
+    private void BuildModeLoop()
+    {
+        ItemStack stack;
+        InventoryManager.GetItemInSlot(InputManager.CurrentlySelectedInventorySlot, out stack);
+        if(stack && stack.GetItem().IsPlaceable)
+        {
+            currentItem = stack.GetItem();
+            // hide cell indicator when we are previewing the placement of an item
+            if(cellIndicator.activeSelf) cellIndicator.SetActive(false);
+
+            // if we have selected a new item
+            if(lastSelectedInventorySlot != InputManager.CurrentlySelectedInventorySlot)
+            {
+                sizeX = currentItem.Size.x;
+                sizeY = currentItem.Size.y;
+
+                if(previewItemPrefab)
+                {
+                    Destroy(previewItemPrefab);
+                    currentRotation = 0;
+                }
+                lastSelectedInventorySlot = InputManager.CurrentlySelectedInventorySlot;
+                previewItemPrefab = Instantiate(currentItem.ItemPrefab, cellIndicator.transform.position, quaternion.identity);
+                previewItemPrefab.name = "Object Placement Preview";
+                previewItemPrefab.GetComponent<Collider2D>().enabled = false;
+            }
+
+            // if there is currently a selected item
+            if(previewItemPrefab)
+            {
+                HandleRotation();
+                HandlePrefabPlacementLocation();
+            }
+        }
+        else if((!stack || !stack.GetItem().IsPlaceable) && previewItemPrefab)
+        {
+            Destroy(previewItemPrefab);
+            currentRotation = 0;
+            lastSelectedInventorySlot = -1;
+        }
+    }
+
     void Update()
     {
-        CheckGridVisibility();
+        // Maintain correct gridShowing value
+        gridShowing = (InputManager.BuildMode && !gridShowing) ? true : (!InputManager.BuildMode && gridShowing) ? false : gridShowing;
+
         UpdateGridVisibility();
         UpdateCellIndicatorPosition();
         
         // want to show item location before placing it, make it snap to new location each time mouse moves grid
 
-        if(InputManager.BuildMode)
+        if(InputManager.BuildMode) 
         {
-            ItemStack stack;
-            InventoryManager.GetItemInSlot(InputManager.CurrentlySelectedInventorySlot, out stack);
-            if(stack && stack.GetItem().IsPlaceable)
-            {
-                Item item = stack.GetItem();
-                // hide cell indicator when we are previewing the placement of an item
-                if(cellIndicator.activeSelf)
-                {
-                    cellIndicator.SetActive(false);
-                }
-                Debug.Log($"here");
-                if(!stack && previewItemPrefab)
-                {
-                    Debug.Log($"Null");
-                    Destroy(previewItemPrefab);
-                    currentRotation = 0;
-                }
-
-                // if we have selected a new item
-                if(lastSelectedInventorySlot != InputManager.CurrentlySelectedInventorySlot)
-                {
-                    sizeX = item.Size.x;
-                    sizeY = item.Size.y;
-
-                    if(previewItemPrefab)
-                    {
-                        Destroy(previewItemPrefab);
-                        currentRotation = 0;
-                    }
-                    lastSelectedInventorySlot = InputManager.CurrentlySelectedInventorySlot;
-                    previewItemPrefab = Instantiate(item.ItemPrefab, cellIndicator.transform.position, quaternion.identity);
-                    previewItemPrefab.name = "Object Placement Preview";
-                    previewItemPrefab.GetComponent<Collider2D>().enabled = false;
-                }
-
-                // if there is currently a selected item
-                if(previewItemPrefab)
-                {
-                    HandleRotation(item);
-                    HandlePrefabPlacementLocation(item);
-                }
-            }
-            else if((!stack || !stack.GetItem().IsPlaceable) && previewItemPrefab)
-            {
-                Debug.Log($"Null here");
-                Destroy(previewItemPrefab);
-                lastSelectedInventorySlot = -1;
-            }
-            else if(!cellIndicator.activeSelf)
-            {
-                cellIndicator.SetActive(true);
-            }
+            BuildModeLoop();
+            if(InputManager.IsPlacing) PlaceObject();
         }
-        else
-        {
-            if(previewItemPrefab)
-            {
-                Destroy(previewItemPrefab);
-            }
-            lastSelectedInventorySlot = -1; // IMPORTANT
-        }
-        
-        // check for placement or destroy
-
+        else if(previewItemPrefab) StopBuildModeLoop();
     }
 
-    private void HandleRotation(Item item)
+    private void StopBuildModeLoop()
+    {
+        if(previewItemPrefab) Destroy(previewItemPrefab);
+        
+        lastSelectedInventorySlot = -1;
+    }
+
+    private void HandleRotation()
     {
         if(InputManager.IsRotating)
         {
@@ -141,40 +138,54 @@ public class BuildZone : MonoBehaviour
         }
     }
 
-    private void HandlePrefabPlacementLocation(Item item)
+    private void PlaceObject()
+    {
+        if(!IsObstructed(anchorCellWorld) && previewItemPrefab)
+        {
+            Place(anchorCellWorld);
+            GameObject placedObject = Instantiate(previewItemPrefab.gameObject, previewItemPrefab.transform.position, previewItemPrefab.transform.rotation);
+            placedObject.name = $"{currentItem.Name} : ({anchorCellWorld.x}, {anchorCellWorld.y})";
+            placedObject.GetComponent<SpriteRenderer>().color = Color.white;
+            placedObject.GetComponent<Collider2D>().enabled = true;
+            Destroy(previewItemPrefab);
+            InventoryManager.ConsumeItemInSlot(InputManager.CurrentlySelectedInventorySlot, 1);
+
+            // i want to exit build mode when i place an object
+            InputManager.SetBuildMode(false);
+        }
+    }
+
+    private void CalculateAnchorOffset(Vector2 localOffset)
+    {
+        // anchor offset is used to determine where the center of the object is relative to the mouse when staging to place the object
+
+        // we do not need to calculate anchor offset if the axis is only size 1
+        if(sizeX > 1)
+        {
+            if(sizeX % 2 == 0) anchorOffset.x = (localOffset.x < 0f) ? (sizeX / 2) : (sizeX / 2 - 1);
+
+            else anchorOffset.x = sizeX / 2;
+        }
+        
+        if(sizeY > 1)
+        {
+            if(sizeY % 2 == 0) anchorOffset.y = (localOffset.y < 0f) ? (sizeY / 2) : (sizeY / 2 - 1);
+
+            else anchorOffset.y = sizeY / 2;
+        }
+    }
+
+    private void HandlePrefabPlacementLocation()
     {
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 cellCentre = cellIndicator.transform.position;
 
         Vector2 localOffset = mouseWorldPos - cellCentre;
-        Vector2 anchorOffset = Vector2.zero;
+        anchorOffset = Vector2.zero;
 
-        if(sizeX > 1)
-        {
-            if(sizeX % 2 == 0)
-            {
-                anchorOffset.x = (localOffset.x < 0f) ? (sizeX / 2) : (sizeX / 2 - 1);
-            }
-            else
-            {
-                anchorOffset.x = sizeX / 2;
-            }
-        }
-        
-        if(sizeY > 1)
-        {
-            if(sizeY % 2 == 0)
-            {
-                anchorOffset.y = (localOffset.y < 0f) ? (sizeY / 2) : (sizeY / 2 - 1);
-            }
-            else
-            {
-                anchorOffset.y = sizeY / 2;
-            }
-        }
-        
+        CalculateAnchorOffset(localOffset);
 
-        Vector2 anchorCellWorld = cellCentre - new Vector2(anchorOffset.x, anchorOffset.y);
+        anchorCellWorld = cellCentre - new Vector2(anchorOffset.x, anchorOffset.y);
         anchorCellWorld = ClampToAvailableSpaceInBuildZone(anchorCellWorld);
         Vector2 centreOffset = new Vector2((sizeX - 1) * 0.5f, (sizeY - 1) * 0.5f);
 
@@ -183,82 +194,32 @@ public class BuildZone : MonoBehaviour
 
         if(IsObstructed(anchorCellWorld)) { previewItemPrefab.GetComponent<SpriteRenderer>().color = unableToBuildColour; }
         else { previewItemPrefab.GetComponent<SpriteRenderer>().color = ableToBuildColour; }
-
-
-        if(InputManager.IsPlacing)
-        {
-            if(IsObstructed(anchorCellWorld))
-            {
-                Debug.Log("Cannot place here");
-            }
-            else
-            {
-                Place(anchorCellWorld);
-                GameObject placedObject = Instantiate(previewItemPrefab.gameObject, previewItemPrefab.transform.position, previewItemPrefab.transform.rotation);
-                placedObject.name = $"{item.Name} : ({anchorCellWorld.x}, {anchorCellWorld.y})";
-                placedObject.GetComponent<SpriteRenderer>().color = Color.white;
-                placedObject.GetComponent<Collider2D>().enabled = true;
-                Destroy(previewItemPrefab);
-                InventoryManager.ConsumeItemInSlot(InputManager.CurrentlySelectedInventorySlot, 1);
-
-                Debug.Log($"Placed");
-
-
-                // i want to exit build mode when i place an object
-                InputManager.SetBuildMode(false);
-            }
-        }
     }
 
-    private void SwapItemSize()
+    private Vector2 ClampToAvailableSpaceInBuildZone(Vector2 pos)
     {
-        int temp = sizeX;
-        sizeX = sizeY;
-        sizeY = temp;
-    }
-
-    private Vector2 ClampToAvailableSpaceInBuildZone(Vector2 anchorCellWorld)
-    {
-        Vector2Int cellPos = Vector2Int.FloorToInt(anchorCellWorld);
-
-        int minX = Mathf.RoundToInt(min.x);
-        int minY = Mathf.RoundToInt(min.y);
-        int maxX = Mathf.RoundToInt(max.x) - sizeX;
-        int maxY = Mathf.RoundToInt(max.y) - sizeY;
-
-        cellPos.x = Mathf.Clamp(cellPos.x, minX, maxX);
-        cellPos.y = Mathf.Clamp(cellPos.y, minY, maxY);
+        Vector2Int cellPos = GetCellPos(pos);
         
-        Queue<Vector2Int> queue = new Queue<Vector2Int>();
-        HashSet<Vector2Int> visited = new HashSet<Vector2Int>();
+        Queue<Vector2Int> queue = new Queue<Vector2Int>(); // cells to visit
+        HashSet<Vector2Int> visited = new HashSet<Vector2Int>(); // cells that have been visited
 
-        queue.Enqueue(cellPos);
+        queue.Enqueue(cellPos); // start at first one obviously
         visited.Add(cellPos);
 
         while(queue.Count > 0)
         {
             Vector2Int currentSpace = queue.Dequeue();
-            if(IsAreaFree(currentSpace))
-            {
-                Debug.Log($"{currentSpace + new Vector2(0.5f, 0.5f)} if 0.5 works");
-                return currentSpace + new Vector2(0.5f, 0.5f);
-            }
+            if(IsAreaFree(currentSpace)) return currentSpace + OFFSET;
 
+            // how did i get -1 to 1? i think this should have something to do with the size of the object or something?
             for(int x = -1; x < 1; x++)
             {
                 for(int y = -1; y < 1; y++)
                 {
-                    // refactor this its ugly as fuck.
                     Vector2Int neighbourSpace = currentSpace + new Vector2Int(x, y);
-                    if
-                    (
-                        (x == 0 && y == 0) 
-                        || neighbourSpace.x < minX || neighbourSpace.y < minY || neighbourSpace.x > maxX || neighbourSpace.y > maxY
-                    )
-                    {
-                        continue; // do not check + (0, 0) because that is where we already are
-                        // also skip if we are out of bounds
-                    }
+
+                    // do not check 0, 0 or any position out of bounds.
+                    if((x == 0 && y == 0) || !InBounds(neighbourSpace)) continue;
 
                     if(!visited.Contains(neighbourSpace))
                     {
@@ -269,22 +230,14 @@ public class BuildZone : MonoBehaviour
             }
         }
 
-        return new Vector2(cellPos.x, cellPos.y) + new Vector2(0.5f, 0.5f); // might be shit, maybe show red icon?
+        return new Vector2(cellPos.x, cellPos.y) + OFFSET;
     }
 
-    private bool IsObstructed(Vector2 anchorCellWorld)
+    
+
+    private bool IsObstructed(Vector2 pos)
     {
-        Vector2Int cellPos = Vector2Int.FloorToInt(anchorCellWorld);
-
-        int minX = Mathf.RoundToInt(min.x);
-        int minY = Mathf.RoundToInt(min.y);
-        int maxX = Mathf.RoundToInt(max.x) - sizeX;
-        int maxY = Mathf.RoundToInt(max.y) - sizeY;
-
-        cellPos.x = Mathf.Clamp(cellPos.x, minX, maxX);
-        cellPos.y = Mathf.Clamp(cellPos.y, minY, maxY);
-
-        Debug.Log($"x: {cellPos.x}, y: {cellPos.y}");
+        Vector2Int cellPos = GetCellPos(pos);
 
         for(int x = cellPos.x; x < cellPos.x + sizeX; x++)
         {
@@ -299,71 +252,57 @@ public class BuildZone : MonoBehaviour
         return false;
     }
 
-    private bool IsAreaFree(Vector2Int anchor)
+    private bool IsAreaFree(Vector2Int pos)
     {
         for(int x = 0; x < sizeX; x++)
         {
             for(int y = 0; y < sizeY; y++)
             {
-                Vector2Int pos = new Vector2Int(anchor.x + x, anchor.y + y);
-                if(buildZoneObjects.TryGetValue(pos, out bool occupied) && occupied)
-                {
-                    return false;
-                }
+                // if this coordinate exists in the build zone, and is populated, its not free
+                if(buildZoneObjects.TryGetValue(new Vector2Int(pos.x + x, pos.y + y), out bool occupied) && occupied) return false;
             }
         }
         return true;
     }
 
-    private void Place(Vector2 anchorCellWorld)
+    private void Place(Vector2 pos)
     {
-        Vector2Int cellPos = Vector2Int.FloorToInt(anchorCellWorld);
-
-        int minX = Mathf.RoundToInt(min.x);
-        int minY = Mathf.RoundToInt(min.y);
-        int maxX = Mathf.RoundToInt(max.x) - sizeX;
-        int maxY = Mathf.RoundToInt(max.y) - sizeY;
-
-        cellPos.x = Mathf.Clamp(cellPos.x, minX, maxX);
-        cellPos.y = Mathf.Clamp(cellPos.y, minY, maxY);
+        Vector2Int cellPos = GetCellPos(pos);
 
         for(int x = cellPos.x; x < cellPos.x + sizeX; x++)
         {
             for(int y = cellPos.y; y < cellPos.y + sizeY; y++)
             {
-                if(buildZoneObjects[new Vector2Int(x, y)] == true)
-                {
-                    Debug.LogError("What the fuck");
-                }
-                else
-                {
-                    buildZoneObjects[new Vector2Int(x, y)] = true;
-                }
+                if(buildZoneObjects[new Vector2Int(x, y)] == true) Debug.LogError("Build Zone: Something went wrong with the place function, object location already occupied.");
+                else buildZoneObjects[new Vector2Int(x, y)] = true;
             }
         }
     }
 
-    private void CheckGridVisibility()
+    private void UpdateExtremes()
     {
-        if(InputManager.BuildMode && !gridShowing)
-        {
-            gridShowing = true;
-        }
-        else if(!InputManager.BuildMode && gridShowing)
-        {
-            gridShowing = false;
-        }
+        minX = Mathf.RoundToInt(min.x);
+        minY = Mathf.RoundToInt(min.y);
+        maxX = Mathf.RoundToInt(max.x) - sizeX;
+        maxY = Mathf.RoundToInt(max.y) - sizeY;
+    }
+
+    private Vector2Int GetCellPos(Vector2 pos)
+    {
+        Vector2Int cellPos = Vector2Int.FloorToInt(pos);
+        UpdateExtremes();
+        cellPos.x = Mathf.Clamp(cellPos.x, minX, maxX);
+        cellPos.y = Mathf.Clamp(cellPos.y, minY, maxY);
+        return cellPos;
     }
 
     private void UpdateCellIndicatorPosition()
     {
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3Int gridPos = grid.WorldToCell(mouseWorldPos);
-        mouseWorldPos.z = 0;
-        gridPos.z = 0;
 
         mouseIndicator.transform.position = mouseWorldPos;
-        cellIndicator.transform.position = grid.CellToWorld(gridPos) + new Vector3(0.5f, 0.5f, 0);
+        cellIndicator.transform.position = (Vector2)grid.CellToWorld(gridPos) + OFFSET;
     }
 
     private void GenerateGridSquares()
@@ -372,49 +311,37 @@ public class BuildZone : MonoBehaviour
         {
             for(float y = min.y; y < max.y; y++)
             {
-                GameObject square = Instantiate(gridSquare, new Vector3(x + 0.5f, y + 0.5f, 0), Quaternion.identity);
+                GameObject square = Instantiate(gridSquare, new Vector2(x, y) + OFFSET, Quaternion.identity);
                 square.transform.SetParent(gridSquareContainer.transform);
                 square.name = $"Grid Square ({x}, {y})";
 
                 Color colour = square.GetComponent<SpriteRenderer>().color;
-                if(((int)x + (int)y) % 2 == 0)
-                {
-                    colour.a = evenAlphaLevel;
-                }
-                else
-                {
-                    colour.a = oddAlphaLevel;
-                }
+                colour.a = ((int)x + (int)y) % 2 == 0 ? evenAlphaLevel : oddAlphaLevel;
                 square.GetComponent<SpriteRenderer>().color = colour;
             }
         }
     }
     
     private void UpdateGridVisibility()
-    {
-        // if in build mode, and within build zone bounds, and not yet currently active, show indicator
-        if(gridShowing && IsWithinBuildZoneBounds(cellIndicator.transform.position) && !cellIndicator.activeSelf)
-        {
-            cellIndicator.SetActive(true);
-        }
-        // if not in build mode, or not within build zone bounds, and currently active, hide indicator
-        else if((!gridShowing || !IsWithinBuildZoneBounds(cellIndicator.transform.position)) && cellIndicator.activeSelf)
-        {
-            cellIndicator.SetActive(false);
-        }
-
-        if(gridShowing && !gridSquareContainer.activeSelf)
-        {
-            gridSquareContainer.SetActive(true);
-        }
-        else if(!gridShowing && gridSquareContainer.activeSelf)
-        {
-            gridSquareContainer.SetActive(false);
-        }
+    {        
+        // Show the cell indicator when hovering over a tile in the build zone
+        if(gridShowing && InBounds(cellIndicator.transform.position)) cellIndicator.SetActive(true);
+        else if(!gridShowing || !InBounds(cellIndicator.transform.position)) cellIndicator.SetActive(false);
+        
+        if(gridShowing && !gridSquareContainer.activeSelf) gridSquareContainer.SetActive(true);
+        else if(!gridShowing && gridSquareContainer.activeSelf) gridSquareContainer.SetActive(false);
     }
 
-    private bool IsWithinBuildZoneBounds(Vector2 pos)
+    private bool InBounds(Vector2 pos)
     {
         return pos.x >= min.x && pos.x <= max.x && pos.y >= min.y && pos.y <= max.y;
+    }
+
+    // TODO: this is trash
+    private void SwapItemSize()
+    {
+        int temp = sizeX;
+        sizeX = sizeY;
+        sizeY = temp;
     }
 }

@@ -30,7 +30,6 @@ public class Inventory : MonoBehaviour
         {
             Transform currentSlot = gameObject.transform.GetChild(i);
             slotArray[i] = currentSlot;
-            Debug.Log($"{slotArray[i].name}");
         }
 
         Refresh();
