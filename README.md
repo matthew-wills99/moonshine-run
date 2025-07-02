@@ -2,7 +2,8 @@
 
 ***
 
-### "Moonshine Run" is the working title for my current solo game development endeavour. It will be a simulation / tycoon game about starting and growing an illegal moonshine empire.
+### "Moonshine Run" is the working title for my current solo game development endeavour.
+It will be a simulation / tycoon game about starting and growing an illegal moonshine empire.
 
 ***
 
