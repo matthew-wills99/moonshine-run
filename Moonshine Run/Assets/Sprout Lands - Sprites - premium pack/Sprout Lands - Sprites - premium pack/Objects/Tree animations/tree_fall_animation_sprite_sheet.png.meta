@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: 62d4091e6095d0149972aa449069012f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3768170500252321308
+    second: tree_fall_animation_sprite_sheet_0
+  - first:
+      213: 523002294401205210
+    second: tree_fall_animation_sprite_sheet_1
+  - first:
+      213: 3402621710097498031
+    second: tree_fall_animation_sprite_sheet_2
+  - first:
+      213: -5441106918561080007
+    second: tree_fall_animation_sprite_sheet_3
+  - first:
+      213: -6095120093476029848
+    second: tree_fall_animation_sprite_sheet_4
+  - first:
+      213: 8701644314718898820
+    second: tree_fall_animation_sprite_sheet_5
+  - first:
+      213: -9033652629638602509
+    second: tree_fall_animation_sprite_sheet_6
+  - first:
+      213: -4618329190285198134
+    second: tree_fall_animation_sprite_sheet_7
+  - first:
+      213: -6781426915489272568
+    second: tree_fall_animation_sprite_sheet_8
+  - first:
+      213: -6880839120705731493
+    second: tree_fall_animation_sprite_sheet_9
+  - first:
+      213: -6974633880277968667
+    second: tree_fall_animation_sprite_sheet_10
+  - first:
+      213: -5847312995806614439
+    second: tree_fall_animation_sprite_sheet_11
+  - first:
+      213: -2239840989741791781
+    second: tree_fall_animation_sprite_sheet_12
+  - first:
+      213: 472749175208709894
+    second: tree_fall_animation_sprite_sheet_13
+  - first:
+      213: 4365627428020665457
+    second: tree_fall_animation_sprite_sheet_14
+  - first:
+      213: -4068287194592298911
+    second: tree_fall_animation_sprite_sheet_15
+  - first:
+      213: -268250172781043196
+    second: tree_fall_animation_sprite_sheet_16
+  - first:
+      213: 6396139799800111327
+    second: tree_fall_animation_sprite_sheet_17
+  - first:
+      213: -419882563459724536
+    second: tree_fall_animation_sprite_sheet_18
+  - first:
+      213: 115814583808510606
+    second: tree_fall_animation_sprite_sheet_19
+  - first:
+      213: 1750519001301303558
+    second: tree_fall_animation_sprite_sheet_20
+  - first:
+      213: -9136957405329914937
+    second: tree_fall_animation_sprite_sheet_21
+  - first:
+      213: -606565885533268988
+    second: tree_fall_animation_sprite_sheet_22
+  - first:
+      213: -5793951393543121681
+    second: tree_fall_animation_sprite_sheet_23
+  - first:
+      213: -5794603826025173911
+    second: tree_fall_animation_sprite_sheet_24
+  - first:
+      213: 6726166503913356951
+    second: tree_fall_animation_sprite_sheet_25
+  - first:
+      213: -7032843630652353140
+    second: tree_fall_animation_sprite_sheet_26
+  - first:
+      213: 6013087920054210986
+    second: tree_fall_animation_sprite_sheet_27
+  - first:
+      213: -7057094001331625772
+    second: tree_fall_animation_sprite_sheet_28
+  - first:
+      213: 6425232315266498344
+    second: tree_fall_animation_sprite_sheet_29
+  - first:
+      213: -3888157943190658044
+    second: tree_fall_animation_sprite_sheet_30
+  - first:
+      213: 1371408412142414663
+    second: tree_fall_animation_sprite_sheet_31
+  - first:
+      213: -8278025421425285369
+    second: tree_fall_animation_sprite_sheet_32
+  - first:
+      213: -4911605856339249195
+    second: tree_fall_animation_sprite_sheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9ba5705e4c4bbc0800000000000000
+      internalID: -3768170500252321308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad38f76d0d3124700800000000000000
+      internalID: 523002294401205210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafb46fda6a883f20800000000000000
+      internalID: 3402621710097498031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d1f36f51e4d74b0800000000000000
+      internalID: -5441106918561080007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86af30d7198c96ba0800000000000000
+      internalID: -6095120093476029848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 3
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a0e94a66372c870800000000000000
+      internalID: 8701644314718898820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f02e12bbc402a280800000000000000
+      internalID: -9033652629638602509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 20
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accbb35021668efb0800000000000000
+      internalID: -4618329190285198134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d2dff562883e1a0800000000000000
+      internalID: -6781426915489272568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5449b5a6495280a0800000000000000
+      internalID: -6880839120705731493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 22
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e890a7607f153f90800000000000000
+      internalID: -6974633880277968667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 26
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ceb6a8fcb2adea0800000000000000
+      internalID: -5847312995806614439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5c41dac7c7ae0e0800000000000000
+      internalID: -2239840989741791781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f8c20ceda8f8600800000000000000
+      internalID: 472749175208709894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cbfd40403d59c30800000000000000
+      internalID: 4365627428020665457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1683e0ae95a8a87c0800000000000000
+      internalID: -4068287194592298911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 3
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402e27c93ebf64cf0800000000000000
+      internalID: -268250172781043196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 14
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0e2dc7247a3c850800000000000000
+      internalID: 6396139799800111327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 21
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b4a9d78074c2af0800000000000000
+      internalID: -419882563459724536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 24
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a47b710c47b9100800000000000000
+      internalID: 115814583808510606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 19
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601c22dc1c71b4810800000000000000
+      internalID: 1750519001301303558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c38f6746a1033180800000000000000
+      internalID: -9136957405329914937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4045be37a8b0597f0800000000000000
+      internalID: -606565885533268988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe49bfdb7efb79fa0800000000000000
+      internalID: -5793951393543121681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 3
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c66a7758e659fa0800000000000000
+      internalID: -5794603826025173911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 13
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ef2ed6cc4285d50800000000000000
+      internalID: 6726166503913356951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c851912caf1566e90800000000000000
+      internalID: -7032843630652353140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 16
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa11606ca97c27350800000000000000
+      internalID: 6013087920054210986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0a618556a201e90800000000000000
+      internalID: -7057094001331625772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ff1d69fb20b2950800000000000000
+      internalID: 6425232315266498344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404e18573fc7a0ac0800000000000000
+      internalID: -3888157943190658044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b2bbf4fa8380310800000000000000
+      internalID: 1371408412142414663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707ea42fcbb8e1d80800000000000000
+      internalID: -8278025421425285369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_fall_animation_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7bb281f7876dbb0800000000000000
+      internalID: -4911605856339249195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

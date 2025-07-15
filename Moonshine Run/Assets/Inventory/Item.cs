@@ -22,7 +22,7 @@ public class ItemStack
         this.item = item;
         this.count = count;
 
-        size = item.IsStackable ? 99 : 0;
+        size = item.IsStackable ? 99 : 1;
     }
 
     public static implicit operator bool(ItemStack stack)

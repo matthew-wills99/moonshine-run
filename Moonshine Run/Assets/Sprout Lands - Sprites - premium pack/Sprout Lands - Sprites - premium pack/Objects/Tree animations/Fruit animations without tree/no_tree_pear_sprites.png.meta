@@ -1,0 +1,1842 @@
+fileFormatVersion: 2
+guid: 3b3438a17d470fe4f9aff6a0a14c6038
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6962667141729207929
+    second: no_tree_pear_sprites_0
+  - first:
+      213: 6375078545432060389
+    second: no_tree_pear_sprites_1
+  - first:
+      213: -9196075536273081938
+    second: no_tree_pear_sprites_2
+  - first:
+      213: 315343162148530964
+    second: no_tree_pear_sprites_3
+  - first:
+      213: 3011310899402454628
+    second: no_tree_pear_sprites_4
+  - first:
+      213: 3306610529367273996
+    second: no_tree_pear_sprites_5
+  - first:
+      213: 4213738612329799746
+    second: no_tree_pear_sprites_6
+  - first:
+      213: -3883769664200550851
+    second: no_tree_pear_sprites_7
+  - first:
+      213: 7289134997758929391
+    second: no_tree_pear_sprites_8
+  - first:
+      213: -7720273862813842898
+    second: no_tree_pear_sprites_9
+  - first:
+      213: 456012000688080963
+    second: no_tree_pear_sprites_10
+  - first:
+      213: 2613251966842957113
+    second: no_tree_pear_sprites_11
+  - first:
+      213: -9044154923942507556
+    second: no_tree_pear_sprites_12
+  - first:
+      213: -3435662937876558452
+    second: no_tree_pear_sprites_13
+  - first:
+      213: -8107011610918656839
+    second: no_tree_pear_sprites_14
+  - first:
+      213: 2947227012731160186
+    second: no_tree_pear_sprites_15
+  - first:
+      213: -6315841315989328159
+    second: no_tree_pear_sprites_16
+  - first:
+      213: 1157605677712112579
+    second: no_tree_pear_sprites_17
+  - first:
+      213: 607764548024767453
+    second: no_tree_pear_sprites_18
+  - first:
+      213: -8991992670800698586
+    second: no_tree_pear_sprites_19
+  - first:
+      213: -4475680086474423188
+    second: no_tree_pear_sprites_20
+  - first:
+      213: -7508373379373629796
+    second: no_tree_pear_sprites_21
+  - first:
+      213: -2497637921722249962
+    second: no_tree_pear_sprites_22
+  - first:
+      213: -4282697432229965201
+    second: no_tree_pear_sprites_23
+  - first:
+      213: -2951153239561979417
+    second: no_tree_pear_sprites_24
+  - first:
+      213: 7881295505411288553
+    second: no_tree_pear_sprites_25
+  - first:
+      213: 3933253052994189194
+    second: no_tree_pear_sprites_26
+  - first:
+      213: -5928084387452233313
+    second: no_tree_pear_sprites_27
+  - first:
+      213: -6499113988626515437
+    second: no_tree_pear_sprites_28
+  - first:
+      213: 7984439170565055893
+    second: no_tree_pear_sprites_29
+  - first:
+      213: 3805991599958140215
+    second: no_tree_pear_sprites_30
+  - first:
+      213: -8896318207435794048
+    second: no_tree_pear_sprites_31
+  - first:
+      213: 8311521139086923148
+    second: no_tree_pear_sprites_32
+  - first:
+      213: 6076298126527887914
+    second: no_tree_pear_sprites_33
+  - first:
+      213: 5405974022893781766
+    second: no_tree_pear_sprites_34
+  - first:
+      213: -2462693712154186574
+    second: no_tree_pear_sprites_35
+  - first:
+      213: -7392958840014293877
+    second: no_tree_pear_sprites_36
+  - first:
+      213: -2257486887051047198
+    second: no_tree_pear_sprites_37
+  - first:
+      213: 4171437883649792272
+    second: no_tree_pear_sprites_38
+  - first:
+      213: -8168442886566513590
+    second: no_tree_pear_sprites_39
+  - first:
+      213: 884007308384364558
+    second: no_tree_pear_sprites_40
+  - first:
+      213: -6992483628563767503
+    second: no_tree_pear_sprites_41
+  - first:
+      213: 5212773100986486985
+    second: no_tree_pear_sprites_42
+  - first:
+      213: 1956518573687446898
+    second: no_tree_pear_sprites_43
+  - first:
+      213: 6556690792063706190
+    second: no_tree_pear_sprites_44
+  - first:
+      213: 7209994366738413426
+    second: no_tree_pear_sprites_45
+  - first:
+      213: 5542147033988130825
+    second: no_tree_pear_sprites_46
+  - first:
+      213: 880447437743399905
+    second: no_tree_pear_sprites_47
+  - first:
+      213: 298267926551285867
+    second: no_tree_pear_sprites_48
+  - first:
+      213: 8487371807948444804
+    second: no_tree_pear_sprites_49
+  - first:
+      213: -1721758217685687300
+    second: no_tree_pear_sprites_50
+  - first:
+      213: 872992388472108009
+    second: no_tree_pear_sprites_51
+  - first:
+      213: 9132891950574273518
+    second: no_tree_pear_sprites_52
+  - first:
+      213: 3245225115104173629
+    second: no_tree_pear_sprites_53
+  - first:
+      213: -85665551330786098
+    second: no_tree_pear_sprites_54
+  - first:
+      213: -7351478283836389598
+    second: no_tree_pear_sprites_55
+  - first:
+      213: -6722112077123306388
+    second: no_tree_pear_sprites_56
+  - first:
+      213: -7842738985270519528
+    second: no_tree_pear_sprites_57
+  - first:
+      213: -2993015811697725036
+    second: no_tree_pear_sprites_58
+  - first:
+      213: -3591025469789309001
+    second: no_tree_pear_sprites_59
+  - first:
+      213: -5080275943483222270
+    second: no_tree_pear_sprites_60
+  - first:
+      213: 6057879595622131916
+    second: no_tree_pear_sprites_61
+  - first:
+      213: 8047033186551982827
+    second: no_tree_pear_sprites_62
+  - first:
+      213: 5512322821554127126
+    second: no_tree_pear_sprites_63
+  - first:
+      213: -6122430439358590682
+    second: no_tree_pear_sprites_64
+  - first:
+      213: -4854932140633196164
+    second: no_tree_pear_sprites_65
+  - first:
+      213: 4514240586100484968
+    second: no_tree_pear_sprites_66
+  - first:
+      213: -1283635918274567567
+    second: no_tree_pear_sprites_67
+  - first:
+      213: -4915341611773076502
+    second: no_tree_pear_sprites_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 167
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976cd0820ec50a060800000000000000
+      internalID: 6962667141729207929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 162
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e121b31924d87850800000000000000
+      internalID: 6375078545432060389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 157
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea978ccc50af06080800000000000000
+      internalID: -9196075536273081938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b263a6fe2506400800000000000000
+      internalID: 315343162148530964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4663523fe435ac920800000000000000
+      internalID: 3011310899402454628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 120
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02b08dd1c073ed20800000000000000
+      internalID: 3306610529367273996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e34c41f43a7a30800000000000000
+      internalID: 4213738612329799746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 118
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3653e741141a1ac0800000000000000
+      internalID: -3883769664200550851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 113
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9e94539a5382560800000000000000
+      internalID: 7289134997758929391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 119
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e228f3653d31cd490800000000000000
+      internalID: -7720273862813842898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3480452af74145600800000000000000
+      internalID: 456012000688080963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93de34871d2244420800000000000000
+      internalID: 2613251966842957113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 109
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb8ec0c305bc7280800000000000000
+      internalID: -9044154923942507556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d84ebc2c21250d0800000000000000
+      internalID: -3435662937876558452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 109
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4e93584eb1e7f80800000000000000
+      internalID: -8107011610918656839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c64e5a57a6e820800000000000000
+      internalID: 2947227012731160186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee68be29cf9958a0800000000000000
+      internalID: -6315841315989328159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb710a0b34a01010800000000000000
+      internalID: 1157605677712112579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd39718e2a63f6800800000000000000
+      internalID: 607764548024767453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623220abe46063380800000000000000
+      internalID: -8991992670800698586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64076daca033e1c0800000000000000
+      internalID: -4475680086474423188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7f694136ecc790800000000000000
+      internalID: -7508373379373629796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d43321b8b965dd0800000000000000
+      internalID: -2497637921722249962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629477406dc094c0800000000000000
+      internalID: -4282697432229965201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e93a26b3c56b07d0800000000000000
+      internalID: -2951153239561979417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed2ce9518cff5d60800000000000000
+      internalID: 7881295505411288553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87707bffc8b59630800000000000000
+      internalID: 3933253052994189194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99de5f68a63bbda0800000000000000
+      internalID: -5928084387452233313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31af429d2428ec5a0800000000000000
+      internalID: -6499113988626515437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595ae3c4f1d6ece60800000000000000
+      internalID: 7984439170565055893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73520a5f13991d430800000000000000
+      internalID: 3805991599958140215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08913fc99bde98480800000000000000
+      internalID: -8896318207435794048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c851d6e8074785370800000000000000
+      internalID: 8311521139086923148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2af015d3f8535450800000000000000
+      internalID: 6076298126527887914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603c2935bb0e50b40800000000000000
+      internalID: 5405974022893781766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 23
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc2670ed11c2ddd0800000000000000
+      internalID: -2462693712154186574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b843dd5ca1fe66990800000000000000
+      internalID: -7392958840014293877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 23
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee483c03abcba0e0800000000000000
+      internalID: -2257486887051047198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0199d8967ace3e930800000000000000
+      internalID: 4171437883649792272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 23
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f222197cd3ae80800000000000000
+      internalID: -8168442886566513590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08691b96ff944c00800000000000000
+      internalID: 884007308384364558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd8b50035b5fe90800000000000000
+      internalID: -6992483628563767503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0d203548d775840800000000000000
+      internalID: 5212773100986486985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d1815d643f62b10800000000000000
+      internalID: 1956518573687446898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44280b598b0efa50800000000000000
+      internalID: 6556690792063706190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277b2062dab0f0460800000000000000
+      internalID: 7209994366738413426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e8d52d59a9ec40800000000000000
+      internalID: 5542147033988130825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e32912a74af73c00800000000000000
+      internalID: 880447437743399905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b605bf15919a32400800000000000000
+      internalID: 298267926551285867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4849e69f0b339c570800000000000000
+      internalID: 8487371807948444804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf32cb5f5061b18e0800000000000000
+      internalID: -1721758217685687300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 12
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3ff76b3fd7d1c00800000000000000
+      internalID: 872992388472108009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3010647dc8ebe70800000000000000
+      internalID: 9132891950574273518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ed5f95c0b590d20800000000000000
+      internalID: 3245225115104173629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4c07b82a7afcef0800000000000000
+      internalID: -85665551330786098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2270fed537d4af990800000000000000
+      internalID: -7351478283836389598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 5
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cb3be5ea246b2a0800000000000000
+      internalID: -6722112077123306388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d7dc027ef82390800000000000000
+      internalID: -7842738985270519528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49131a81afba676d0800000000000000
+      internalID: -2993015811697725036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7f3dd7c5d1a2ec0800000000000000
+      internalID: -3591025469789309001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20758b322fb3f79b0800000000000000
+      internalID: -5080275943483222270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e42d6569e11450800000000000000
+      internalID: 6057879595622131916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beae5345c0eccaf60800000000000000
+      internalID: 8047033186551982827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61143029664bf7c40800000000000000
+      internalID: 5512322821554127126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6211ef314f1c80ba0800000000000000
+      internalID: -6122430439358590682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c797eecc0f0df9cb0800000000000000
+      internalID: -4854932140633196164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bab2545edc5ae30800000000000000
+      internalID: 4514240586100484968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172ef4eeeeb9f2ee0800000000000000
+      internalID: -1283635918274567567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: no_tree_pear_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebd190c8d239cbb0800000000000000
+      internalID: -4915341611773076502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

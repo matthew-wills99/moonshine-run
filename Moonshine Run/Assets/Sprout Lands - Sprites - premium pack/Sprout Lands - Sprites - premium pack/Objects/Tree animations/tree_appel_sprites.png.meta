@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: 94f8f27b06e104c48a19dd17fa0512af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1520821671283474480
+    second: tree_appel_sprites_0
+  - first:
+      213: 7115099834709799489
+    second: tree_appel_sprites_1
+  - first:
+      213: 6680045060089195604
+    second: tree_appel_sprites_2
+  - first:
+      213: 524057821707937404
+    second: tree_appel_sprites_3
+  - first:
+      213: -1589260191774029476
+    second: tree_appel_sprites_4
+  - first:
+      213: -7112247861801856222
+    second: tree_appel_sprites_5
+  - first:
+      213: 6752566460636089361
+    second: tree_appel_sprites_6
+  - first:
+      213: 7841931429512176213
+    second: tree_appel_sprites_7
+  - first:
+      213: 5525602730103282841
+    second: tree_appel_sprites_8
+  - first:
+      213: -5101855000142854945
+    second: tree_appel_sprites_9
+  - first:
+      213: -5399298773132475051
+    second: tree_appel_sprites_10
+  - first:
+      213: 8646841200065627649
+    second: tree_appel_sprites_11
+  - first:
+      213: 5831008797476736579
+    second: tree_appel_sprites_12
+  - first:
+      213: 4175424512516281422
+    second: tree_appel_sprites_13
+  - first:
+      213: -3798166032458573542
+    second: tree_appel_sprites_14
+  - first:
+      213: -3974413512688358553
+    second: tree_appel_sprites_15
+  - first:
+      213: 5053349617364000284
+    second: tree_appel_sprites_16
+  - first:
+      213: 185886637148851462
+    second: tree_appel_sprites_17
+  - first:
+      213: -3356138644989882056
+    second: tree_appel_sprites_18
+  - first:
+      213: -582034182090612042
+    second: tree_appel_sprites_19
+  - first:
+      213: 6906973517227266791
+    second: tree_appel_sprites_20
+  - first:
+      213: -4218043082006103423
+    second: tree_appel_sprites_21
+  - first:
+      213: 2486230270408468660
+    second: tree_appel_sprites_22
+  - first:
+      213: 2590017535105149485
+    second: tree_appel_sprites_23
+  - first:
+      213: -1198668134857223683
+    second: tree_appel_sprites_24
+  - first:
+      213: 5311303775698360425
+    second: tree_appel_sprites_25
+  - first:
+      213: -8778640973925945547
+    second: tree_appel_sprites_26
+  - first:
+      213: -1841843535429501384
+    second: tree_appel_sprites_27
+  - first:
+      213: -6282722899201218141
+    second: tree_appel_sprites_28
+  - first:
+      213: -4499569412775574509
+    second: tree_appel_sprites_29
+  - first:
+      213: 1210876976674350956
+    second: tree_appel_sprites_30
+  - first:
+      213: 486506723562096076
+    second: tree_appel_sprites_31
+  - first:
+      213: -6817039925844918478
+    second: tree_appel_sprites_32
+  - first:
+      213: -1648336577813728975
+    second: tree_appel_sprites_33
+  - first:
+      213: -8793647669505633006
+    second: tree_appel_sprites_34
+  - first:
+      213: 3391838791463532476
+    second: tree_appel_sprites_35
+  - first:
+      213: -3639341097875208790
+    second: tree_appel_sprites_36
+  - first:
+      213: 6549525308961158192
+    second: tree_appel_sprites_37
+  - first:
+      213: 3022911355752211588
+    second: tree_appel_sprites_38
+  - first:
+      213: -6589256799292818479
+    second: tree_appel_sprites_39
+  - first:
+      213: 1090542791426419177
+    second: tree_appel_sprites_40
+  - first:
+      213: -8500059796909779014
+    second: tree_appel_sprites_41
+  - first:
+      213: 5741407053227110977
+    second: tree_appel_sprites_42
+  - first:
+      213: -4035085091702953385
+    second: tree_appel_sprites_43
+  - first:
+      213: 4378614770746717482
+    second: tree_appel_sprites_44
+  - first:
+      213: 610937830448865870
+    second: tree_appel_sprites_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree_appel_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030419b904b0b1510800000000000000
+      internalID: 1520821671283474480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 99
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142715d2a99edb260800000000000000
+      internalID: 7115099834709799489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 99
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c283af69944bc50800000000000000
+      internalID: 6680045060089195604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 99
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76aaa0ffc3d54700800000000000000
+      internalID: 524057821707937404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 99
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59c3ad9640d1f9e0800000000000000
+      internalID: -1589260191774029476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 51
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223d4c280483c4d90800000000000000
+      internalID: -7112247861801856222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 51
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c4e685b6fe5bd50800000000000000
+      internalID: 6752566460636089361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 51
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5526b09361324dc60800000000000000
+      internalID: 7841931429512176213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 51
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1cb93862eeac40800000000000000
+      internalID: 5525602730103282841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 51
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd44fec78e19239b0800000000000000
+      internalID: -5101855000142854945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 51
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5558c3f5f56d115b0800000000000000
+      internalID: -5399298773132475051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106cf1f2240cff770800000000000000
+      internalID: 8646841200065627649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e47c77b97ebe050800000000000000
+      internalID: 5831008797476736579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44ddf6c87612f930800000000000000
+      internalID: 4175424512516281422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191a55fd143a4bc0800000000000000
+      internalID: -3798166032458573542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba2b1b7fb08d8c0800000000000000
+      internalID: -3974413512688358553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 26
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e56d404ba112640800000000000000
+      internalID: 5053349617364000284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dcfbf59e6649200800000000000000
+      internalID: 185886637148851462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831da681fa99c61d0800000000000000
+      internalID: -3356138644989882056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2aa51cef23ce7f0800000000000000
+      internalID: -582034182090612042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e29c57b1df7adf50800000000000000
+      internalID: 6906973517227266791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 3
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a7bb14a208675c0800000000000000
+      internalID: -4218043082006103423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b82581224dd08220800000000000000
+      internalID: 2486230270408468660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 3
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aa9f5c93791f320800000000000000
+      internalID: 2590017535105149485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 14
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df15142aea97d5fe0800000000000000
+      internalID: -1198668134857223683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96811bcb4aa85b940800000000000000
+      internalID: 5311303775698360425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 15
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f6472ab800c2680800000000000000
+      internalID: -8778640973925945547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 14
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83effd220157076e0800000000000000
+      internalID: -1841843535429501384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a926ea7fc84fc8a0800000000000000
+      internalID: -6282722899201218141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3148c4575715e81c0800000000000000
+      internalID: -4499569412775574509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67af5dd136edc010800000000000000
+      internalID: 1210876976674350956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc502c6994b60c600800000000000000
+      internalID: 486506723562096076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fbb504e420561a0800000000000000
+      internalID: -6817039925844918478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1313121ad9eef19e0800000000000000
+      internalID: -1648336577813728975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215dc2b0900b6f580800000000000000
+      internalID: -8793647669505633006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7f29cf86b321f20800000000000000
+      internalID: 3391838791463532476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa50ba4bd867e7dc0800000000000000
+      internalID: -3639341097875208790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0347f00519694ea50800000000000000
+      internalID: 6549525308961158192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484ea1bacd983f920800000000000000
+      internalID: 3022911355752211588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbf2583ad14e84a0800000000000000
+      internalID: -6589256799292818479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 8
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9a55f04e2622f00800000000000000
+      internalID: 1090542791426419177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab71d9366a8b90a80800000000000000
+      internalID: -8500059796909779014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142368eab439daf40800000000000000
+      internalID: 5741407053227110977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a2296ec7f7008c0800000000000000
+      internalID: -4035085091702953385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25f2a26fe6f3cc30800000000000000
+      internalID: 4378614770746717482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_appel_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42a0cb48bc7a7800800000000000000
+      internalID: 610937830448865870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

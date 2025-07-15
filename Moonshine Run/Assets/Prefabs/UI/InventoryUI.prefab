@@ -173,7 +173,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1152, y: 410}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3326512199018565320
 CanvasRenderer:
@@ -2745,6 +2745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6571744825391310826}
+  - component: {fileID: 3298889029768654137}
   m_Layer: 5
   m_Name: InventoryUI
   m_TagString: Untagged
@@ -2772,3 +2773,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3298889029768654137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9154860723654373479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874ce13a2f9c524408fd43998e9430f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inactiveSlot: {r: 0.2784314, g: 0.2784314, b: 0.5294118, a: 1}
+  activeSlot: {r: 0.8, g: 0.68235296, b: 0.38431373, a: 1}
+  inventoryBackground: {fileID: 4651905123792183797}

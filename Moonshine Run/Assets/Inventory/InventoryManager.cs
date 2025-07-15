@@ -77,4 +77,24 @@ public class InventoryManager : MonoBehaviour
         }
         return qty;
     }
+
+    public static void Give(Item item, int qty)
+    {
+        for(int i = 0; i < Inventory.SLOT_COUNT; i++)
+        {
+            ItemStack stack = inventory[i];
+            if(stack && stack.GetItem() == item && item.IsStackable && stack.GetCount() <= 99 - qty)
+            {
+                stack.Add(qty, out int r);
+                Debug.Log($"Gave {qty} {item.Name}");
+                return;
+            }
+            if(!stack || !stack.GetItem())
+            {
+                inventory[i] = new ItemStack(item, qty);
+                Debug.Log($"Gave {qty} {item.Name}");
+                return;
+            }
+        }
+    }
 }

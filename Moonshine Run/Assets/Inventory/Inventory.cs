@@ -20,6 +20,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] private Color activeSlot;
 
     [SerializeField] private Image inventoryBackground;
+    [SerializeField] private GameObject inventoryFrame;
 
     private Transform[] slotArray;
 
@@ -28,8 +29,12 @@ public class Inventory : MonoBehaviour
         slotArray = new Transform[SLOT_COUNT];
         for(int i = 0; i < SLOT_COUNT; i++)
         {
-            Transform currentSlot = gameObject.transform.GetChild(i);
+            Transform currentSlot = inventoryFrame.transform.GetChild(i);
             slotArray[i] = currentSlot;
+
+            // default settings
+            GetSlotBorder(i).color = inactiveSlot;
+            GetSlotText(i).text = "";
         }
 
         Refresh();
