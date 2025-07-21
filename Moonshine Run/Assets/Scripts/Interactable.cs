@@ -11,6 +11,8 @@ public abstract class Interactable : MonoBehaviour
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+
+        if(!player) player = transform;
     }
 
     void OnMouseOver()
